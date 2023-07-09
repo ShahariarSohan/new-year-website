@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner-area {
+    height:700px;
+    flex-shrink: 0;
+    background-image: url("/images/banner/banner2.png");
+    background-image:cover;
+    background-position: center;
+}
