@@ -55,6 +55,7 @@ h1 {
     align-items: center;
     margin: 100px;
     column-gap: 200px;
+    margin-bottom: 150px;
 }
 
 .common-title {
@@ -84,7 +85,7 @@ ul li {
 .myplan-section {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 100px;
+    margin: 100px 0 150px 0;
 }
 
 .myplan-box {
@@ -92,18 +93,27 @@ ul li {
     text-align: center;
 
 }
+
 .myskill-title {
     color: #151414;
     font-family: Work Sans;
     font-size: 30px;
     font-weight: 700;
 }
+
 .myskill-paragraph {
     color: #737272;
     font-family: Work Sans;
     font-size: 20px;
     font-weight: 500;
 }
-.call-section{
-    background-image: url("");
+
+.call-section {
+    background-image: url("/images/watch.png");
+    background-repeat: no repeat;
+    width: 1140px;
+    height: 250px;
+    margin:auto;
+    border-radius: 8px;
+
 }
