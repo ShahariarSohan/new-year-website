@@ -132,7 +132,6 @@ ul li {
 #call-button {
     background-color: #FFF;
     color: #F15B22;
-    color: #F15B22;
     font-family: Work Sans;
     font-size: 20px;
     font-weight: 600;
@@ -140,14 +139,61 @@ ul li {
 }
 
 footer {
-    color:#FFF;
-    font-family: Work Sans;;
-    margin-top:150px;
+    color: #FFF;
+    font-family: Work Sans;
+    margin-top: 150px;
     width: 100%;
     height: 550px;
-    background-color:#151414 ;
-    display:flex;
+    background-color: #151414;
+    display: flex;
     justify-content: space-around;
     align-items: center;
+
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+
+.footer-paragraph {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.footer-icon {
+    padding: 20px 0;
+}
+
+h4 {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+input {
+    width: 325px;
+    height: 64px;
+    background: #151414;
+    border-radius: 8px;
+    margin: 20px 0;
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 400;
+    padding-left: ;
+}
+
+ #footer-button {
     
+    background-color:#FFF;
+    color: #F15B22;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right:30px;
 }
