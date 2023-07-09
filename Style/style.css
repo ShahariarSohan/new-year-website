@@ -6,14 +6,46 @@
 
 .banner-area {
     height: 700px;
-    flex-shrink: 0;
     background-image: url("/images/banner/banner2.png");
-    background-image: cover;
+    background-size: cover;
     background-position: center;
-    display:flex;
+    background-repeat: no-repeat;
+    display: flex;
     align-items: center;
+
+}
+
+.text-area {
+    margin: 340px 0px 360px 850px;
+}
+
+h1 {
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.banner-paragraph {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin:5px 0;
     
 }
-.text-area{
-    margin:215px 230px 360px 850px;
+
+
+.btn {
+    width: 160px;
+    height: 64px;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFF;
+    border-radius: 5px;
+    background: #F15B22;
+    border: none;
+
 }
